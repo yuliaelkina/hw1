@@ -1,0 +1,31 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuliaelkina/hw1.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Yulia Elkina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuliaelkina/hw1/issues"
+  },
+  "homepage": "https://github.com/yuliaelkina/hw1#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1"
+  },
+  "dependencies": {
+    "core-js": "^3.12.0"
+  }
+}
